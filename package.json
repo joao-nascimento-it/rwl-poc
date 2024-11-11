@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "venv": "poetry shell",
+    "install": "poetry install --no-root",
+    "build": "poetry build",
+    "update": "poetry update",
+    "export-requirements": "poetry export -f requirements.txt --dev --output requirements.txt",
+    "add": "poetry add --",
+    "show": "poetry show",
+    "i": "npm run install",
+    "build-docker": "docker build -t rwl-core-package .",
+    "unit-test": "pytest -v -ra tests/unit",
+    "test": "poetry run coverage run -m pytest -v -ra && poetry run coverage report",
+    "integration-test": "pytest -v -ra tests/integration",
+    "format": "poetry run black ."
+  }
+}
