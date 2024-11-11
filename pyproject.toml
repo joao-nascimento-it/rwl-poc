@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rwl"
+version = "0.1.0"
+description = ""
+authors = ["João Felipe <87448021+joao-nascimento-it@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rwl-core = {path = "D:/GitHub/rwl-core"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
