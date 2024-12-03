@@ -1,16 +1,15 @@
 # RWL: Proof of Concept
 
-## Modelagem de Processos em Python usando RWL
+## Process Modeling in Python using RWL
 
-Modele um sistema em UML e um programa em Python que realize os seguintes passos usando RWL design:
+Model a system in UML and a program in Python that performs the following steps using RWL design:
 
-1. Clone o projeto https://github.com/thiagomennezes/rwl-activity;
-2. Receba dois inteiros positivos LHS e RHS como entrada via API REST;
-3. Imprima na tela os números LHS e RHS;
-4. Some LHS e RHS;
-5. Imprima na tela a soma;
-6. Subtraia 15 da soma;
-7. Imprima na tela a subtração;
-8. Multiplique por 4;
-9. Imprima na tela a multiplicação;
-10. Retorne o resultado.
+1. Receive two positive integers LHS and RHS as input via REST API;
+2. Print the numbers LHS and RHS on the screen;
+3. Add LHS and RHS;
+4. Print the sum on the screen;
+5. Subtract 15 from the sum;
+6. Print the subtraction on the screen;
+7. Multiply by 4;
+8. Print the multiplication on the screen;
+9. Return the result.
